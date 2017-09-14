@@ -1,0 +1,21 @@
+{
+  "name": "newapp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  },
+  "author": "Lukasz>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "^3.2.6",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {},
+  "license": "ISC"
+}
