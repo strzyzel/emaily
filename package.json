@@ -10,11 +10,17 @@
   "author": "Lukasz>",
   "dependencies": {
     "async": "~0.2.8",
+    "cookie-session": "^1.3.1",
     "express": "^3.2.6",
+    "mongoose": "^4.11.11",
+    "nodemon": "^1.12.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
     "socket.io": "~0.9.14"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "devDependencies": {},
   "license": "ISC"
