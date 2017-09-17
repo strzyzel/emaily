@@ -24,4 +24,4 @@ app.use(passport.session());
 require('./routes/authRoutes')(app);
 
 console.log("Server started!");
-app.listen(process.env.PORT, process.env.IP);
+app.listen(8081, process.env.IP);
